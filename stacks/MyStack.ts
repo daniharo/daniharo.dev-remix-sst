@@ -1,7 +1,8 @@
-import { StackContext, RemixSite } from "sst/constructs";
+import { StackContext } from "sst/constructs";
+import { MyRemixSite } from "../constructs/MyRemixSite";
 
 export function WebSite({ stack }: StackContext) {
-  const site = new RemixSite(stack, "Site", {
+  const site = new MyRemixSite(stack, "Site", {
     path: "packages/web/",
   });
 
