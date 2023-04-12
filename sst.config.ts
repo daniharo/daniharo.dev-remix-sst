@@ -5,7 +5,7 @@ export default {
   config(_input) {
     return {
       name: "daniharodev-remix",
-      region: "us-east-1",
+      region: "eu-west-3",
     };
   },
   stacks(app) {
